@@ -1,5 +1,11 @@
 MedTrace — Forensic Inspection of Medicine Strip Authenticity
 
+
+## 🔬 MedTrace Inspection Demo
+
+![MedTrace Demo](assets/medtrace_demo.gif)
+
+
 MedTrace is a forensic computer vision pipeline designed to inspect medicine strip images for signs of tampering, surface disturbance, and authenticity risks.
 
 It combines:
@@ -48,7 +54,7 @@ Forensic Inspection Report (JSON)
 
  Visual Evidence
 
-🧼 Foil Cleaning — 
+## 🧼 Foil Cleaning — 
 
 ![Foil Clean](assets/foil_clean.jpg)
 Removes glare and foil noise for reliable analysis.
@@ -56,7 +62,7 @@ Removes glare and foil noise for reliable analysis.
 
 ⸻
 
-OCR Detection — 
+## OCR Detection — 
 
 ![OCR Output](assets/ocr_output.jpg)
 Bounding boxes around detected text after preprocessing.
@@ -64,7 +70,7 @@ Bounding boxes around detected text after preprocessing.
 
 ⸻
 
-Texture Heatmap — 
+## Texture Heatmap — 
 
 ![Heatmap](assets/tamper_heatmap.jpg)
 Edge heatmap showing foil disturbance regions.
@@ -72,7 +78,7 @@ Edge heatmap showing foil disturbance regions.
 
 ⸻
 
- Tamper Region — 
+ ## Tamper Region — 
 
 ![Tamper Output](assets/tamper_output.jpg)
 Most suspicious region highlighted.
