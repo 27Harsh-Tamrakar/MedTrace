@@ -1,4 +1,17 @@
-venv/
+# Runtime generated forensic artifacts
+*.jpg
+*.png
+*.jpeg
+*.json
+*.txt
+
+# Except assets used in README
+!assets/
+
+# Python
 __pycache__/
 *.pyc
+venv/
+
+# Mac
 .DS_Store
