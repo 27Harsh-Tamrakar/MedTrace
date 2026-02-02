@@ -28,7 +28,9 @@ Critical information like drug name, batch number, and expiry date is printed on
 This surface is:
 	•	Prone to scratches and abrasions
 	•	Vulnerable to overwriting and tampering
-	•	Difficult for OCR due to glare and texture noise
+	•		Extremely difficult for OCR due to glare and texture noise
+	•	Structurally deformable when pills are pressed and resealed
+
 
 MedTrace demonstrates how computer vision and surface forensics can be used to detect these anomalies from a simple image.
 
@@ -111,6 +113,7 @@ These values are from testing on multiple strip images:
 	•	OCR reliability on large text: High
 	•	OCR reliability on micro-print (batch/expiry): Limited by camera resolution and foil reflectivity
 	•	Tamper region localization: Visually consistent across samples
+	• Blister cavity deformation detection: Clearly highlights irregular cavities
 	•	Processing time per image: ~1.2–2.0 seconds
 
 MedTrace intentionally reports when micro-print OCR is unreliable — mimicking real inspection systems.
@@ -137,6 +140,7 @@ preprocessed.jpg
 ocr_output.jpg
 tamper_heatmap.jpg
 tamper_output.jpg
+cavity_analysis.jpg
 ocr_text.txt
 verdict.json
 
@@ -164,8 +168,10 @@ medtrace/
   "batch_number": "NOT FOUND",
   "expiry_date": "NOT FOUND",
   "tamper_score": 65.09,
-  "confidence": "65.09%",
-  "evidence": "High edge-density and micro-texture disturbance detected on foil surface",
+  "cavity_deformation_score": 67.66,
+  "final_score": 65.86,
+  "confidence": "65.86%",
+  "evidence": "Surface disturbance and blister cavity deformation detected",
   "verdict": "SUSPICIOUS"
 }
 
